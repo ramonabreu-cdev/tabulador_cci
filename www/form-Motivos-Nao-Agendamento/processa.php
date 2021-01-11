@@ -24,3 +24,7 @@ if(mysqli_insert_id($conn)){
 	$_SESSION['msg'] = "<p style='color:red;'>Cadastro não Efetivado !</p>";
 	header("Location: index.php");
 }
+
+
+
+
